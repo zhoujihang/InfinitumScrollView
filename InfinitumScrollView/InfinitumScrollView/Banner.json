@@ -1,0 +1,28 @@
+{
+    "name": "home_topBanner",
+    "style": "home_topBanner",
+    "content": [],
+    "bannerList": [
+                   {
+                   "id": "201606071432",
+                   "image": "",
+                   "height": 0,
+                   "width": 0,
+                   "routerData": "{\"jump\":[{\"path\":\"wap\",\"parameters\":{\"url\":\"http:\\/\\/activity.demo.ayibang.com\\/2016\\/dw\\/\"}}]}"
+                   },
+                   {
+                   "id": "201606061628",
+                   "image": "",
+                   "height": 0,
+                   "width": 0,
+                   "routerData": "{\"jump\":[{\"path\":\"wap\",\"parameters\":{\"url\":\"http:\\/\\/detail.demo.ayibang.com\\/AYB_YZXK.html\"}}]}"
+                   },
+                   {
+                   "id": "201606061628",
+                   "image": "",
+                   "height": 0,
+                   "width": 0,
+                   "routerData": "{\"jump\":[{\"path\":\"wap\",\"parameters\":{\"url\":\"http:\\/\\/detail.demo.ayibang.com\\/AYB_YZXK.html\"}}]}"
+                   }
+                   ]
+}
