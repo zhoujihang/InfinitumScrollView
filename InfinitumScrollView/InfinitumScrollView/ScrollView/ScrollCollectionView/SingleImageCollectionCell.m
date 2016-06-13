@@ -9,6 +9,7 @@
 #import "SingleImageCollectionCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <Masonry/Masonry.h>
+#import "UIColor+Extension.h"
 
 @interface SingleImageCollectionCell()
 
@@ -34,7 +35,7 @@
 // 创建视图控件
 - (void)setUpViews{
     self.backgroundView = [[UIView alloc] init];
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundView.backgroundColor = [UIColor getColor:@"eef2f2"];
     
     UIImageView *imgView = [[UIImageView alloc] init];
     imgView.clipsToBounds = YES;

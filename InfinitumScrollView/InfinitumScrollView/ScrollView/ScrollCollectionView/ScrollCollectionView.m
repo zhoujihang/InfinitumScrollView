@@ -45,7 +45,7 @@
 - (void)setUp{
     self.preferedWidth = -1;
     self.scaleHM = 112/375.0;   // 默认比例
-    self.centerItemIndex = 1000000;
+    self.centerItemIndex = 10000;   // 此数太大时在部分机型上会有bug！
     [self setUpViews];
     [self setUpConstraints];
 }
@@ -62,7 +62,7 @@
     collectionView.pagingEnabled = YES;
     collectionView.delegate = self;
     collectionView.dataSource = self;
-    collectionView.backgroundColor = [UIColor clearColor];
+    collectionView.backgroundColor = [UIColor getColor:@"eef2f2"];
     [self addSubview:collectionView];
     self.collectionView = collectionView;
     
